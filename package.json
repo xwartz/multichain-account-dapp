@@ -1,0 +1,28 @@
+{
+  "name": "multichain-account-practice-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@airgap/beacon-sdk": "4.8.1",
+    "@polkadot/extension-dapp": "0.63.1",
+    "@tonconnect/ui": "3.0.2",
+    "sats-connect": "4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  },
+  "overrides": {
+    "@walletconnect/core": "2.23.10",
+    "@walletconnect/sign-client": "2.23.10",
+    "@walletconnect/utils": "2.23.10",
+    "axios": "1.19.0",
+    "valibot": "1.4.2"
+  }
+}
