@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "deploy": "pnpm run build && wrangler deploy",
+    "cf:dev": "wrangler dev"
   },
   "dependencies": {
     "@airgap/beacon-sdk": "4.8.1",
@@ -16,7 +18,8 @@
   },
   "devDependencies": {
     "typescript": "5.9.3",
-    "vite": "7.3.6"
+    "vite": "7.3.6",
+    "wrangler": "4.123.0"
   },
   "overrides": {
     "@walletconnect/core": "2.23.10",
