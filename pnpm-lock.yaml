@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@airgap/beacon-sdk':
         specifier: 4.8.1
-        version: 4.8.1
+        version: 4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       '@polkadot/extension-dapp':
         specifier: 0.63.1
-        version: 0.63.1(@polkadot/api@16.5.6)(@polkadot/util-crypto@14.0.3(@polkadot/util@14.0.3))(@polkadot/util@14.0.3)
+        version: 0.63.1(@polkadot/api@16.5.6(supports-color@10.2.2))(@polkadot/util-crypto@14.0.3(@polkadot/util@14.0.3))(@polkadot/util@14.0.3)(supports-color@10.2.2)
       '@tonconnect/ui':
         specifier: 3.0.2
         version: 3.0.2
       sats-connect:
         specifier: 4.2.1
-        version: 4.2.1(typescript@5.9.3)
+        version: 4.2.1(debug@4.4.3(supports-color@10.2.2))(typescript@5.9.3)
     devDependencies:
       typescript:
         specifier: 5.9.3
@@ -1727,8 +1727,8 @@ packages:
   sonic-boom@2.8.0:
     resolution: {integrity: sha512-kuonw1YOYYNOve5iHdSahXPOK49GqwA+LZhI6Wz/l0rP57iKyXXIHaRagOBHAPmGwJC6od2Z9zgvZ5loSgMlVg==}
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   split-on-first@1.1.0:
@@ -2052,10 +2052,10 @@ snapshots:
       broadcast-channel: 7.4.0
       bs58check: 4.0.0
 
-  '@airgap/beacon-dapp@4.8.1':
+  '@airgap/beacon-dapp@4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@airgap/beacon-core': 4.8.0
-      '@airgap/beacon-transport-matrix': 4.8.1
+      '@airgap/beacon-transport-matrix': 4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       '@airgap/beacon-transport-postmessage': 4.8.0
       '@airgap/beacon-transport-walletconnect': 4.8.0
       '@airgap/beacon-ui': 4.8.0
@@ -2085,18 +2085,18 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  '@airgap/beacon-sdk@4.8.1':
+  '@airgap/beacon-sdk@4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@airgap/beacon-blockchain-substrate': 4.8.0
       '@airgap/beacon-blockchain-tezos': 4.8.0
       '@airgap/beacon-core': 4.8.0
-      '@airgap/beacon-dapp': 4.8.1
-      '@airgap/beacon-transport-matrix': 4.8.1
+      '@airgap/beacon-dapp': 4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+      '@airgap/beacon-transport-matrix': 4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       '@airgap/beacon-transport-postmessage': 4.8.0
       '@airgap/beacon-types': 4.8.0
       '@airgap/beacon-ui': 4.8.0
       '@airgap/beacon-utils': 4.8.0
-      '@airgap/beacon-wallet': 4.8.1
+      '@airgap/beacon-wallet': 4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -2122,11 +2122,11 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  '@airgap/beacon-transport-matrix@4.8.1':
+  '@airgap/beacon-transport-matrix@4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@airgap/beacon-core': 4.8.0
       '@airgap/beacon-utils': 4.8.0
-      axios: 1.19.0
+      axios: 1.19.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -2210,10 +2210,10 @@ snapshots:
       '@stablelib/utf8': 2.1.0
       bs58check: 4.0.0
 
-  '@airgap/beacon-wallet@4.8.1':
+  '@airgap/beacon-wallet@4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@airgap/beacon-core': 4.8.0
-      '@airgap/beacon-transport-matrix': 4.8.1
+      '@airgap/beacon-transport-matrix': 4.8.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       '@airgap/beacon-transport-postmessage': 4.8.0
     transitivePeerDependencies:
       - debug
@@ -2646,10 +2646,10 @@ snapshots:
   '@polkadot-api/utils@0.1.0':
     optional: true
 
-  '@polkadot/api-augment@16.5.6':
+  '@polkadot/api-augment@16.5.6(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/api-base': 16.5.6
-      '@polkadot/rpc-augment': 16.5.6
+      '@polkadot/api-base': 16.5.6(supports-color@10.2.2)
+      '@polkadot/rpc-augment': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/types-augment': 16.5.6
       '@polkadot/types-codec': 16.5.6
@@ -2660,9 +2660,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/api-base@16.5.6':
+  '@polkadot/api-base@16.5.6(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/rpc-core': 16.5.6
+      '@polkadot/rpc-core': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/util': 14.0.3
       rxjs: 7.8.2
@@ -2672,12 +2672,12 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/api-derive@16.5.6':
+  '@polkadot/api-derive@16.5.6(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/api': 16.5.6
-      '@polkadot/api-augment': 16.5.6
-      '@polkadot/api-base': 16.5.6
-      '@polkadot/rpc-core': 16.5.6
+      '@polkadot/api': 16.5.6(supports-color@10.2.2)
+      '@polkadot/api-augment': 16.5.6(supports-color@10.2.2)
+      '@polkadot/api-base': 16.5.6(supports-color@10.2.2)
+      '@polkadot/rpc-core': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/types-codec': 16.5.6
       '@polkadot/util': 14.0.3
@@ -2689,15 +2689,15 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/api@16.5.6':
+  '@polkadot/api@16.5.6(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/api-augment': 16.5.6
-      '@polkadot/api-base': 16.5.6
-      '@polkadot/api-derive': 16.5.6
+      '@polkadot/api-augment': 16.5.6(supports-color@10.2.2)
+      '@polkadot/api-base': 16.5.6(supports-color@10.2.2)
+      '@polkadot/api-derive': 16.5.6(supports-color@10.2.2)
       '@polkadot/keyring': 14.0.3(@polkadot/util-crypto@14.0.3(@polkadot/util@14.0.3))(@polkadot/util@14.0.3)
-      '@polkadot/rpc-augment': 16.5.6
-      '@polkadot/rpc-core': 16.5.6
-      '@polkadot/rpc-provider': 16.5.6
+      '@polkadot/rpc-augment': 16.5.6(supports-color@10.2.2)
+      '@polkadot/rpc-core': 16.5.6(supports-color@10.2.2)
+      '@polkadot/rpc-provider': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/types-augment': 16.5.6
       '@polkadot/types-codec': 16.5.6
@@ -2713,10 +2713,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/extension-dapp@0.63.1(@polkadot/api@16.5.6)(@polkadot/util-crypto@14.0.3(@polkadot/util@14.0.3))(@polkadot/util@14.0.3)':
+  '@polkadot/extension-dapp@0.63.1(@polkadot/api@16.5.6(supports-color@10.2.2))(@polkadot/util-crypto@14.0.3(@polkadot/util@14.0.3))(@polkadot/util@14.0.3)(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/api': 16.5.6
-      '@polkadot/extension-inject': 0.63.1(@polkadot/api@16.5.6)(@polkadot/util@14.0.3)
+      '@polkadot/api': 16.5.6(supports-color@10.2.2)
+      '@polkadot/extension-inject': 0.63.1(@polkadot/api@16.5.6(supports-color@10.2.2))(@polkadot/util@14.0.3)(supports-color@10.2.2)
       '@polkadot/util': 14.0.3
       '@polkadot/util-crypto': 14.0.3(@polkadot/util@14.0.3)
       tslib: 2.8.1
@@ -2725,10 +2725,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/extension-inject@0.63.1(@polkadot/api@16.5.6)(@polkadot/util@14.0.3)':
+  '@polkadot/extension-inject@0.63.1(@polkadot/api@16.5.6(supports-color@10.2.2))(@polkadot/util@14.0.3)(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/api': 16.5.6
-      '@polkadot/rpc-provider': 16.5.6
+      '@polkadot/api': 16.5.6(supports-color@10.2.2)
+      '@polkadot/rpc-provider': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/util': 14.0.3
       '@polkadot/util-crypto': 14.0.3(@polkadot/util@14.0.3)
@@ -2751,9 +2751,9 @@ snapshots:
       '@substrate/ss58-registry': 1.51.0
       tslib: 2.8.1
 
-  '@polkadot/rpc-augment@16.5.6':
+  '@polkadot/rpc-augment@16.5.6(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/rpc-core': 16.5.6
+      '@polkadot/rpc-core': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/types-codec': 16.5.6
       '@polkadot/util': 14.0.3
@@ -2763,10 +2763,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/rpc-core@16.5.6':
+  '@polkadot/rpc-core@16.5.6(supports-color@10.2.2)':
     dependencies:
-      '@polkadot/rpc-augment': 16.5.6
-      '@polkadot/rpc-provider': 16.5.6
+      '@polkadot/rpc-augment': 16.5.6(supports-color@10.2.2)
+      '@polkadot/rpc-provider': 16.5.6(supports-color@10.2.2)
       '@polkadot/types': 16.5.6
       '@polkadot/util': 14.0.3
       rxjs: 7.8.2
@@ -2776,7 +2776,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@polkadot/rpc-provider@16.5.6':
+  '@polkadot/rpc-provider@16.5.6(supports-color@10.2.2)':
     dependencies:
       '@polkadot/keyring': 14.0.3(@polkadot/util-crypto@14.0.3(@polkadot/util@14.0.3))(@polkadot/util@14.0.3)
       '@polkadot/types': 16.5.6
@@ -2788,7 +2788,7 @@ snapshots:
       '@polkadot/x-ws': 14.0.3
       eventemitter3: 5.0.4
       mock-socket: 9.3.1
-      nock: 13.5.6
+      nock: 13.5.6(supports-color@10.2.2)
       tslib: 2.8.1
     optionalDependencies:
       '@substrate/connect': 0.8.11
@@ -3037,9 +3037,9 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.62.4':
     optional: true
 
-  '@sats-connect/core@0.10.0(valibot@1.1.0(typescript@5.9.3))':
+  '@sats-connect/core@0.10.0(debug@4.4.3(supports-color@10.2.2))(valibot@1.1.0(typescript@5.9.3))':
     dependencies:
-      axios: 1.12.0
+      axios: 1.12.0(debug@4.4.3(supports-color@10.2.2))
       bitcoin-address-validation: 3.0.0
       buffer: 6.0.3
       jsontokens: 4.0.1
@@ -3047,9 +3047,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sats-connect/make-default-provider-config@0.0.10(@sats-connect/core@0.10.0(valibot@1.1.0(typescript@5.9.3)))(typescript@5.9.3)':
+  '@sats-connect/make-default-provider-config@0.0.10(@sats-connect/core@0.10.0(debug@4.4.3(supports-color@10.2.2))(valibot@1.1.0(typescript@5.9.3)))(typescript@5.9.3)':
     dependencies:
-      '@sats-connect/core': 0.10.0(valibot@1.1.0(typescript@5.9.3))
+      '@sats-connect/core': 0.10.0(debug@4.4.3(supports-color@10.2.2))(valibot@1.1.0(typescript@5.9.3))
       '@sats-connect/ui': 0.0.6
       bowser: 2.14.1
       typescript: 5.9.3
@@ -3484,9 +3484,9 @@ snapshots:
       '@walletconnect/window-getters': 1.0.1
       tslib: 1.14.1
 
-  agent-base@6.0.2:
+  agent-base@6.0.2(supports-color@10.2.2):
     dependencies:
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -3499,19 +3499,19 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  axios@1.12.0:
+  axios@1.12.0(debug@4.4.3(supports-color@10.2.2)):
     dependencies:
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.0(debug@4.4.3(supports-color@10.2.2))
       form-data: 4.0.6
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
 
-  axios@1.19.0:
+  axios@1.19.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.0(debug@4.4.3(supports-color@10.2.2))
       form-data: 4.0.6
-      https-proxy-agent: 5.0.1
+      https-proxy-agent: 5.0.1(supports-color@10.2.2)
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
@@ -3589,9 +3589,11 @@ snapshots:
 
   data-uri-to-buffer@4.0.1: {}
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@10.2.2):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 10.2.2
 
   decode-uri-component@0.2.2: {}
 
@@ -3730,7 +3732,9 @@ snapshots:
 
   filter-obj@1.1.0: {}
 
-  follow-redirects@1.16.0: {}
+  follow-redirects@1.16.0(debug@4.4.3(supports-color@10.2.2)):
+    optionalDependencies:
+      debug: 4.4.3(supports-color@10.2.2)
 
   form-data@4.0.6:
     dependencies:
@@ -3802,10 +3806,10 @@ snapshots:
       minimalistic-assert: 1.0.1
       minimalistic-crypto-utils: 1.0.1
 
-  https-proxy-agent@5.0.1:
+  https-proxy-agent@5.0.1(supports-color@10.2.2):
     dependencies:
-      agent-base: 6.0.2
-      debug: 4.4.3
+      agent-base: 6.0.2(supports-color@10.2.2)
+      debug: 4.4.3(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -3867,9 +3871,9 @@ snapshots:
 
   nanoid@3.3.18: {}
 
-  nock@13.5.6:
+  nock@13.5.6(supports-color@10.2.2):
     dependencies:
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       json-stringify-safe: 5.0.1
       propagate: 2.0.1
     transitivePeerDependencies:
@@ -3953,7 +3957,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.18
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   process-warning@1.0.0: {}
 
@@ -4033,10 +4037,10 @@ snapshots:
 
   safe-stable-stringify@2.5.0: {}
 
-  sats-connect@4.2.1(typescript@5.9.3):
+  sats-connect@4.2.1(debug@4.4.3(supports-color@10.2.2))(typescript@5.9.3):
     dependencies:
-      '@sats-connect/core': 0.10.0(valibot@1.1.0(typescript@5.9.3))
-      '@sats-connect/make-default-provider-config': 0.0.10(@sats-connect/core@0.10.0(valibot@1.1.0(typescript@5.9.3)))(typescript@5.9.3)
+      '@sats-connect/core': 0.10.0(debug@4.4.3(supports-color@10.2.2))(valibot@1.1.0(typescript@5.9.3))
+      '@sats-connect/make-default-provider-config': 0.0.10(@sats-connect/core@0.10.0(debug@4.4.3(supports-color@10.2.2))(valibot@1.1.0(typescript@5.9.3)))(typescript@5.9.3)
       '@sats-connect/ui': 0.0.7
       valibot: 1.1.0(typescript@5.9.3)
     transitivePeerDependencies:
@@ -4096,7 +4100,7 @@ snapshots:
     dependencies:
       atomic-sleep: 1.0.0
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   split-on-first@1.1.0: {}
 
